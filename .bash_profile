@@ -13,3 +13,4 @@ export PS1
 # Enable vagrant in WLS with using Windows' VirtualBox
 export PATH="$PATH:/mnt/d/Program Files/Oracle/VirtualBox/"
 export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+export VAGRANT_WSL_WINDOWS_ACCESS_USER_HOME_PATH="/mnt/d/iCloudDrive/Work/ansible/workdir/vagrant"
