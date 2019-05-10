@@ -1,0 +1,41 @@
+{
+    // GENERAL
+
+    "git.autofetch": true,
+    "window.menuBarVisibility": "toggle",
+
+    // EDITOR
+
+    "editor.fontFamily": "'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 17,
+    "editor.tabSize": 2,
+    "editor.wordWrapColumn": 120,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.wordWrap": "bounded",
+    "editor.minimap.enabled": false,
+
+    // WORKBENCH
+
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.statusBar.feedback.visible": false,
+    "files.associations": {
+        "Dockerfile*": "dockerfile",
+        "dockerfile*": "dockerfile",
+        "Vagrantfile*": "ruby"
+    },
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": null,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#0026ff5d"
+    },
+
+    // TERMINAL
+    
+    "terminal.integrated.shell.linux": "/bin/bash",
+
+    // TIME
+
+    "dateTime.flashTimeSeparators": true,
+    "dateTime.customFormat": "MMM Do HH:mm",
+}  
