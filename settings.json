@@ -25,7 +25,6 @@
         "Vagrantfile*": "ruby"
     },
     "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": null,
     "workbench.colorCustomizations": {
         "statusBar.background": "#0026ff5d"
     },
@@ -38,4 +37,10 @@
 
     "dateTime.flashTimeSeparators": true,
     "dateTime.customFormat": "MMM Do HH:mm",
-}  
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.views.repositories.files.layout": "tree",
+    "python.jediEnabled": false,
+    "workbench.activityBar.visible": true,
+}
