@@ -6,41 +6,56 @@
 
     // EDITOR
 
-    "editor.fontFamily": "'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 17,
+    "editor.fontFamily": "'Fira Code', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
     "editor.tabSize": 2,
     "editor.wordWrapColumn": 120,
     "editor.cursorSmoothCaretAnimation": true,
     "editor.copyWithSyntaxHighlighting": false,
     "editor.wordWrap": "bounded",
     "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "selection",
+    "editor.renderControlCharacters": false,
+    "editor.suggestSelection": "first",
 
     // WORKBENCH
 
     "workbench.editor.closeEmptyGroups": false,
-    "workbench.statusBar.feedback.visible": false,
+    "workbench.statusBar.feedback.visible": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "ayu",
     "files.associations": {
         "Dockerfile*": "dockerfile",
         "dockerfile*": "dockerfile",
         "Vagrantfile*": "ruby"
     },
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "One Monokai",
     "workbench.colorCustomizations": {
-        "statusBar.background": "#0026ff5d"
+    //    "statusBar.background": "#1630c491",
+    //    "statusBar.noFolderBackground": "#2e2644e5",
+    //    "statusBar.debuggingBackground": "#1b3aeb9f"
     },
 
     // TERMINAL
     
     "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.fontSize": 14,
 
     // TIME
 
-    "dateTime.flashTimeSeparators": true,
+    "dateTime.flashTimeSeparators": false,
     "dateTime.customFormat": "MMM Do HH:mm",
-    "editor.suggestSelection": "first",
+
+    // ELSE
+
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.iconTheme": "material-icon-theme",
-    "gitlens.views.repositories.files.layout": "tree",
     "python.jediEnabled": false,
-    "workbench.activityBar.visible": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "yaml.schemas": {
+        "file:///c%3A/Users/pavelkemezh/.vscode/extensions/atlassian.atlascode-2.1.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "gitlens.views.repositories.files.layout": "tree"
 }
