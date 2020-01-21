@@ -1,61 +1,60 @@
 {
-    // GENERAL
-
+    // GIT
     "git.autofetch": true,
-    "window.menuBarVisibility": "toggle",
+    "gitlens.views.repositories.files.layout": "tree",
 
     // EDITOR
-
-    "editor.fontFamily": "'Fira Code', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
     "editor.tabSize": 2,
+    "[python]": {
+            "editor.tabSize": 4
+    },
     "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "bounded",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.copyWithSyntaxHighlighting": false,
-    "editor.wordWrap": "bounded",
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "selection",
     "editor.renderControlCharacters": false,
     "editor.suggestSelection": "first",
 
-    // WORKBENCH
-
-    "workbench.editor.closeEmptyGroups": false,
-    "workbench.statusBar.feedback.visible": true,
+    //WORKBENCH
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "One Monokai",
     "workbench.iconTheme": "ayu",
     "files.associations": {
-        "Dockerfile*": "dockerfile",
-        "dockerfile*": "dockerfile",
-        "Vagrantfile*": "ruby"
-    },
-    "workbench.colorTheme": "One Monokai",
-    "workbench.colorCustomizations": {
-    //    "statusBar.background": "#1630c491",
-    //    "statusBar.noFolderBackground": "#2e2644e5",
-    //    "statusBar.debuggingBackground": "#1b3aeb9f"
+        "*ockerfile*": "dockerfile",
+        "Vagrantfile*": "ruby",
+        "httpd.conf*": "apacheconf",
+        "all": "yaml",
+        "business-qa": "yaml",
+        "develop": "yaml",
+        "feature1": "yaml",
+        "feature2": "yaml",
+        "initialization": "yaml",
+        "integration": "yaml",
+        "preview-int": "yaml",
+        "production": "yaml",
+        "regression": "yaml",
+        "release": "yaml"
     },
 
     // TERMINAL
-    
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 12,
 
     // TIME
-
     "dateTime.flashTimeSeparators": false,
     "dateTime.customFormat": "MMM Do HH:mm",
 
-    // ELSE
-
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // OTHER
+    "todo-tree.highlights.enabled": true,
     "python.jediEnabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "window.zoomLevel": 0,
-    "breadcrumbs.enabled": true,
-    "yaml.schemas": {
-        "file:///c%3A/Users/pavelkemezh/.vscode/extensions/atlassian.atlascode-2.1.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
-    "gitlens.views.repositories.files.layout": "tree"
+    "python.linting.pylintEnabled": true
 }
